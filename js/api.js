@@ -1,7 +1,7 @@
 // === Ajusta esta URL al host de tu backend Flask ===
 //   Local:       http://localhost:5000/api
 //   Servidor:    http://TU_IP_PUBLICA:5000/api
-export const API_BASE_URL = "http://192.168.1.64:5000/api";
+export const API_BASE_URL = "http://98.95.89.150:5000/api";
 
 async function apiGet(path) {
   const res = await fetch(`${API_BASE_URL}${path}`, { method: "GET", mode: "cors" });
